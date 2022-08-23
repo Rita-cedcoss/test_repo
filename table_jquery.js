@@ -1,11 +1,7 @@
 $(document).ready(function(){
     $("#btn1").click(function(){
 
-        $td=$("#btn1").parent().parent().parent().parent().attr("id");
-        console.log($td);
-        $($td).css("border-color","2px solid yellow");
-  
-     
+        $("table").css("background-color","yellow");
     })
     $("#btn2").click(function(){
 
